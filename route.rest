@@ -1,0 +1,8 @@
+GET http://localhost:8085/api/v1/product
+
+###
+GET http://localhost:8085/api/v1/product/1
+
+###
+GET http://localhost:8085/api/v1/product/category/1
+
