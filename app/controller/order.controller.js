@@ -53,13 +53,9 @@ exports.create = (req, res) => {
         }).then(order => {
             if (order) {
                 product.forEach(p => {
-                    console.log("From loop")
-                    console.log(p.incart)
                     Product.findOne({
                         where: { id: p.id }
                     }).then(cartProduct => {
-                        console.log("From query")
-                        console.log(cartProduct.quantity)
                         let cardQuantity = parseInt(p.incart);
                         if (cartProduct.quantity > 0) {
                             cartProduct.quantity = cartProduct.quantity - cardQuantity;
