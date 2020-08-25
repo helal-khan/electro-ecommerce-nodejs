@@ -1,8 +1,8 @@
-const { product, category } = require("../model");
+const { Product, Category } = require("../model");
 
 exports.findAll = (req, res) => {
-    product.findAll({
-        include: category
+    Product.findAll({
+        include: Category
     })
     .then(data => {
         return res.status(200).json({ data: data });
@@ -13,9 +13,9 @@ exports.findAll = (req, res) => {
 }
 
 exports.findByProductId = (req, res) => {
-    product.findOne({
+    Product.findOne({
         where: { id: req.params.productId },
-        include: category
+        include: Category
     })
     .then(data => {
         if (!data) {
@@ -29,9 +29,9 @@ exports.findByProductId = (req, res) => {
 }
 
 exports.findProductByCategoryId = (req, res) => {
-    product.findAll({
+    Product.findAll({
         where: { categoryId: req.params.categoryId },
-        include: category
+        include: Category
     })
     .then(data => {
         if (!data) {

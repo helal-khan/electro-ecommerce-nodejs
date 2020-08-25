@@ -7,9 +7,9 @@ const user = [
    { "id": 2, "username": "shane", "password": "$2b$10$ewemZ.oLASXUIWfUrjkDeOTCZUCpnhSlR3/Act2eQnvGg6mnGLOtG", "email": "shane123@gmail.com", "fname": "Navoneel", "lname": "Mukherjee", "age": 27, "photoUrl": "", "type": "local", "roleId": 2 },
    { "id": 11, "username": "mike", "password": "$2b$10$vIS0W3LKhbx2tFh1GMYWhul7GWtIg4jnKU2C/NGux1pUG3QKMdNzO", "email": "mike-doe@excellent.com", "fname": "Mike", "lname": "Leming", "age": 40, "photoUrl": "https://i.pinimg.com/originals/dc/55/a0/dc55a0fec14d93d9cf6fa32c32f7c7f2.jpg", "type": "local", "roleId": 2 },
    { "id": 14, "username": "indramukh", "password": "$2b$10$po91FRkYQIfPDN6G1BxG0uIV7Z54GbJRkJw2t9wRec9uqmRKillqa", "email": "indramukh@hotmail.com", "fname": "Indranil", "lname": "Mukherjee", "age": null, "photoUrl": "https://image.shutterstock.com/image-vector/person-gray-photo-placeholder-man-260nw-1259815156.jpg", "type": "local", "roleId": 2 },
-   { "id": 19, "username": "test", "password": "$2b$10$cSa3jm7cboNSJRTgNRFJg.GviAzr/pyfptMxwxmjdKP./CdxDtLlK", "email": "test@gmail.com", "fname": "Indranil", "lname": "Mukherjee", "age": null, "photoUrl": "https://image.shutterstock.com/image-vector/person-gray-photo-placeholder-man-260nw-1259815156.jpg", "type": "local", "roleId": 2 },
-   { "id": 20, "username": "bhaikaju", "password": "$2b$10$P9X8c/MC39.Zxr2k5SfxK.lwbcj6PNou2ueqod29CFZrmuDUCvlfe", "email": "bhaikaju@gmail.com", "fname": "Programming's Fun", "lname": "not set", "age": null, "photoUrl": "https://lh3.googleusercontent.com/a-/AOh14GiPx0OQHJOCy-fSfNmKr1vbnM-Rp7CgS_jx_6oY=s96-c", "type": "social", "roleId": 2 },
-   { "id": 21, "username": "shreyamukherjee07", "password": "$2b$10$SOw/LSErH0IbZ96h7pop.O6NJreOD3HjRGiZZmKnqiXiuUPCl8b8W", "email": "shreyamukherjee07@gmail.com", "fname": "Shreya", "lname": "Mukherjee", "age": null, "photoUrl": "https://lh3.googleusercontent.com/a-/AOh14Gg2Be7kKwqsUbQwyuCGToyZcCQ3ZDDWNkvSbQJVHA=s96-c", "type": "social", "roleId": 2 }
+   { "id": 19, "username": "test", "password": "$2b$10$cSa3jm7cboNSJRTgNRFJg.GviAzr/pyfptMxwxmjdKP./CdxDtLlK", "email": "test@gmail.com", "fname": "Indranil", "lname": "Mukherjee", "age": null, "photoUrl": "https://image.shutterstock.com/image-vector/person-gray-photo-placeholder-man-260nw-1259815156.jpg", "type": "local", "roleId": 2 }
+   // { "id": 20, "username": "bhaikaju", "password": "$2b$10$P9X8c/MC39.Zxr2k5SfxK.lwbcj6PNou2ueqod29CFZrmuDUCvlfe", "email": "bhaikaju@gmail.com", "fname": "Programming's Fun", "lname": "not set", "age": null, "photoUrl": "https://lh3.googleusercontent.com/a-/AOh14GiPx0OQHJOCy-fSfNmKr1vbnM-Rp7CgS_jx_6oY=s96-c", "type": "social", "roleId": 2 },
+   // { "id": 21, "username": "shreyamukherjee07", "password": "$2b$10$SOw/LSErH0IbZ96h7pop.O6NJreOD3HjRGiZZmKnqiXiuUPCl8b8W", "email": "shreyamukherjee07@gmail.com", "fname": "Shreya", "lname": "Mukherjee", "age": null, "photoUrl": "https://lh3.googleusercontent.com/a-/AOh14Gg2Be7kKwqsUbQwyuCGToyZcCQ3ZDDWNkvSbQJVHA=s96-c", "type": "social", "roleId": 2 }
 ];
 
 const address = [
@@ -17,9 +17,9 @@ const address = [
       "id": 1,
       "line1": "Test Address",
       "line2": "Test Address",
-      "city": "New Delhi",
-      "state": "Delhi",
-      "country": "India",
+      "city": "Gulshan",
+      "state": "Dhaka",
+      "country": "Bangladesh",
       "phone": "9855698981",
       "pincode": 110045,
       "userId": 1
@@ -28,9 +28,9 @@ const address = [
       "id": 2,
       "line1": "Test Address 2",
       "line2": "Gollahalli, Electronic City",
-      "city": "Bangalore",
-      "state": "Karnataka",
-      "country": "India",
+      "city": "Dhanmondi",
+      "state": "Dhaka",
+      "country": "Bangladesh",
       "phone": "9855698981",
       "pincode": 560100,
       "userId": 1
@@ -67,7 +67,7 @@ const product = [
    },
    {
       "id": 3,
-      "title": "MEN\u0027S ADIDAS RUNNING KALUS SHOES",
+      "title": "MEN'S ADIDAS RUNNING KALUS SHOES",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSrEqFHfSbs6rUzcYnN_PcnS_D2JLXusKMVFk4Y8N_tn3hJgNIf",
       "images": null,
       "description": "A well cushioned shoe with a fresher look that will appeal to young runners. Features Mesh upper for maximum ventilation, lightstrike IMEVA midsole with visible adiprene providing protection from harmful impact forces and durable Rubber outsole for long-lasting wear",
@@ -111,7 +111,7 @@ const product = [
    },
    {
       "id": 7,
-      "title": "MEN\u0027S ADIDAS RUNNING KALUS SHOES",
+      "title": "MEN'S ADIDAS RUNNING KALUS SHOES",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSrEqFHfSbs6rUzcYnN_PcnS_D2JLXusKMVFk4Y8N_tn3hJgNIf",
       "images": null,
       "description": "A well cushioned shoe with a fresher look that will appeal to young runners. Features Mesh upper for maximum ventilation, lightstrike IMEVA midsole with visible adiprene providing protection from harmful impact forces and durable Rubber outsole for long-lasting wear",
@@ -155,7 +155,7 @@ const product = [
    },
    {
       "id": 11,
-      "title": "MEN\u0027S ADIDAS RUNNING KALUS SHOES",
+      "title": "MEN'S ADIDAS RUNNING KALUS SHOES",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSrEqFHfSbs6rUzcYnN_PcnS_D2JLXusKMVFk4Y8N_tn3hJgNIf",
       "images": null,
       "description": "A well cushioned shoe with a fresher look that will appeal to young runners. Features Mesh upper for maximum ventilation, lightstrike IMEVA midsole with visible adiprene providing protection from harmful impact forces and durable Rubber outsole for long-lasting wear",
@@ -199,7 +199,7 @@ const product = [
    },
    {
       "id": 15,
-      "title": "MEN\u0027S ADIDAS RUNNING KALUS SHOES",
+      "title": "MEN'S ADIDAS RUNNING KALUS SHOES",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSrEqFHfSbs6rUzcYnN_PcnS_D2JLXusKMVFk4Y8N_tn3hJgNIf",
       "images": null,
       "description": "A well cushioned shoe with a fresher look that will appeal to young runners. Features Mesh upper for maximum ventilation, lightstrike IMEVA midsole with visible adiprene providing protection from harmful impact forces and durable Rubber outsole for long-lasting wear",
@@ -243,7 +243,7 @@ const product = [
    },
    {
       "id": 19,
-      "title": "MEN\u0027S ADIDAS RUNNING KALUS SHOES",
+      "title": "MEN'S ADIDAS RUNNING KALUS SHOES",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSrEqFHfSbs6rUzcYnN_PcnS_D2JLXusKMVFk4Y8N_tn3hJgNIf",
       "images": null,
       "description": "A well cushioned shoe with a fresher look that will appeal to young runners. Features Mesh upper for maximum ventilation, lightstrike IMEVA midsole with visible adiprene providing protection from harmful impact forces and durable Rubber outsole for long-lasting wear",
@@ -287,7 +287,7 @@ const product = [
    },
    {
       "id": 23,
-      "title": "MEN\u0027S ADIDAS RUNNING KALUS SHOES",
+      "title": "MEN'S ADIDAS RUNNING KALUS SHOES",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSrEqFHfSbs6rUzcYnN_PcnS_D2JLXusKMVFk4Y8N_tn3hJgNIf",
       "images": null,
       "description": "A well cushioned shoe with a fresher look that will appeal to young runners. Features Mesh upper for maximum ventilation, lightstrike IMEVA midsole with visible adiprene providing protection from harmful impact forces and durable Rubber outsole for long-lasting wear",
@@ -331,7 +331,7 @@ const product = [
    },
    {
       "id": 27,
-      "title": "MEN\u0027S ADIDAS RUNNING KALUS SHOES",
+      "title": "MEN'S ADIDAS RUNNING KALUS SHOES",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSrEqFHfSbs6rUzcYnN_PcnS_D2JLXusKMVFk4Y8N_tn3hJgNIf",
       "images": null,
       "description": "A well cushioned shoe with a fresher look that will appeal to young runners. Features Mesh upper for maximum ventilation, lightstrike IMEVA midsole with visible adiprene providing protection from harmful impact forces and durable Rubber outsole for long-lasting wear",
@@ -375,7 +375,7 @@ const product = [
    },
    {
       "id": 31,
-      "title": "MEN\u0027S ADIDAS RUNNING KALUS SHOES",
+      "title": "MEN'S ADIDAS RUNNING KALUS SHOES",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSrEqFHfSbs6rUzcYnN_PcnS_D2JLXusKMVFk4Y8N_tn3hJgNIf",
       "images": null,
       "description": "A well cushioned shoe with a fresher look that will appeal to young runners. Features Mesh upper for maximum ventilation, lightstrike IMEVA midsole with visible adiprene providing protection from harmful impact forces and durable Rubber outsole for long-lasting wear",
@@ -408,7 +408,7 @@ const product = [
    },
    {
       "id": 34,
-      "title": "MEN\u0027S ADIDAS RUNNING KALUS SHOES",
+      "title": "MEN'S ADIDAS RUNNING KALUS SHOES",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSrEqFHfSbs6rUzcYnN_PcnS_D2JLXusKMVFk4Y8N_tn3hJgNIf",
       "images": null,
       "description": "A well cushioned shoe with a fresher look that will appeal to young runners. Features Mesh upper for maximum ventilation, lightstrike IMEVA midsole with visible adiprene providing protection from harmful impact forces and durable Rubber outsole for long-lasting wear",
@@ -452,7 +452,7 @@ const product = [
    },
    {
       "id": 38,
-      "title": "MEN\u0027S ADIDAS RUNNING KALUS SHOES",
+      "title": "MEN'S ADIDAS RUNNING KALUS SHOES",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSrEqFHfSbs6rUzcYnN_PcnS_D2JLXusKMVFk4Y8N_tn3hJgNIf",
       "images": null,
       "description": "A well cushioned shoe with a fresher look that will appeal to young runners. Features Mesh upper for maximum ventilation, lightstrike IMEVA midsole with visible adiprene providing protection from harmful impact forces and durable Rubber outsole for long-lasting wear",
@@ -485,7 +485,7 @@ const product = [
    },
    {
       "id": 41,
-      "title": "MEN\u0027S ADIDAS RUNNING KALUS SHOES",
+      "title": "MEN'S ADIDAS RUNNING KALUS SHOES",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSrEqFHfSbs6rUzcYnN_PcnS_D2JLXusKMVFk4Y8N_tn3hJgNIf",
       "images": null,
       "description": "A well cushioned shoe with a fresher look that will appeal to young runners. Features Mesh upper for maximum ventilation, lightstrike IMEVA midsole with visible adiprene providing protection from harmful impact forces and durable Rubber outsole for long-lasting wear",
@@ -529,7 +529,7 @@ const product = [
    },
    {
       "id": 45,
-      "title": "MEN\u0027S ADIDAS RUNNING KALUS SHOES",
+      "title": "MEN'S ADIDAS RUNNING KALUS SHOES",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSrEqFHfSbs6rUzcYnN_PcnS_D2JLXusKMVFk4Y8N_tn3hJgNIf",
       "images": null,
       "description": "A well cushioned shoe with a fresher look that will appeal to young runners. Features Mesh upper for maximum ventilation, lightstrike IMEVA midsole with visible adiprene providing protection from harmful impact forces and durable Rubber outsole for long-lasting wear",
@@ -562,7 +562,7 @@ const product = [
    },
    {
       "id": 48,
-      "title": "MEN\u0027S ADIDAS RUNNING KALUS SHOES",
+      "title": "MEN'S ADIDAS RUNNING KALUS SHOES",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSrEqFHfSbs6rUzcYnN_PcnS_D2JLXusKMVFk4Y8N_tn3hJgNIf",
       "images": null,
       "description": "A well cushioned shoe with a fresher look that will appeal to young runners. Features Mesh upper for maximum ventilation, lightstrike IMEVA midsole with visible adiprene providing protection from harmful impact forces and durable Rubber outsole for long-lasting wear",
@@ -606,7 +606,7 @@ const product = [
    },
    {
       "id": 52,
-      "title": "MEN\u0027S ADIDAS RUNNING KALUS SHOES",
+      "title": "MEN'S ADIDAS RUNNING KALUS SHOES",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSrEqFHfSbs6rUzcYnN_PcnS_D2JLXusKMVFk4Y8N_tn3hJgNIf",
       "images": null,
       "description": "A well cushioned shoe with a fresher look that will appeal to young runners. Features Mesh upper for maximum ventilation, lightstrike IMEVA midsole with visible adiprene providing protection from harmful impact forces and durable Rubber outsole for long-lasting wear",

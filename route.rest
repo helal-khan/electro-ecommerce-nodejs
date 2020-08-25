@@ -1,8 +1,28 @@
 GET http://localhost:8085/api/v1/product
 
 ###
-GET http://localhost:8085/api/v1/product/1
+GET http://localhost:8085/api/v1/product/2
 
 ###
 GET http://localhost:8085/api/v1/product/category/1
+
+###
+GET http://localhost:8085/api/v1/order/
+
+###
+GET http://localhost:8085/api/v1/order/1
+
+###
+POST http://localhost:8085/api/v1/order/
+Content-Type: application/json
+
+{
+	"userId": "1",
+	"product": [
+        {"id": "18", "incart": "5"},
+        {"id": "32", "incart": "3"}
+    ]
+}
+
+
 

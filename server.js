@@ -13,16 +13,17 @@ app.use(bodyParser.urlencoded({ extended:true }));
 //db.sequelize.sync();
 db.sequelize.sync({force: true}).then(() => {
     console.log("Generating Data...");
-    data.role.forEach(role =>  db.role.create(role));
-    data.user.forEach(user =>  db.user.create(user));
-    data.address.forEach(address =>  db.address.create(address));
-    data.category.forEach(category => db.category.create(category));
-    data.product.forEach(product => db.product.create(product));
+    data.role.forEach(role =>  db.Role.create(role));
+    data.user.forEach(user =>  db.User.create(user));
+    data.address.forEach(address =>  db.Address.create(address));
+    data.category.forEach(category => db.Category.create(category));
+    data.product.forEach(product => db.Product.create(product));
     //data.order.forEach(order => db.order.create(order));
     //data.orderDetails.forEach(orderDetails => db.orderDetails.create(orderDetails));
 });
 
-require("./app/route/product.route.js")(app);
+require("./app/route/product.route")(app);
+require("./app/route/order.route")(app);
 
 app.get("/", (req, res) => {
 	res.json({ message : "Welcome to ELECTRO ecommerce API"});

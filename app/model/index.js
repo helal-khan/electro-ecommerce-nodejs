@@ -49,12 +49,12 @@ OrderDetails.belongsTo(Product, { as: 'product' });
 const db = {
     Sequelize: Sequelize,
     sequelize: sequelize,
-    role: Role,
-    user: User,
-    address: Address,
-    category: Category,
-    product: Product,
-    order: Order,
-    orderDetails: OrderDetails
+    Role: Role,
+    User: User,
+    Address: Address,
+    Category: Category,
+    Product: Product,
+    Order: Order,
+    OrderDetails: OrderDetails
 }
 module.exports = db;
